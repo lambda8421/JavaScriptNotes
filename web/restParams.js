@@ -13,9 +13,9 @@ console.log(funArr2(1,2,3));
 
 const funObj = function ({a,...params}) {
   console.log(a);
-  console.log(params)
+  console.log(params);
   return a + params.b;
-}
+};
 
 const obj = {a:1,b:2};
 console.log(funObj(obj));
