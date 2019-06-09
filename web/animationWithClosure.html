@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="box">First Box</div>
+    <script>
+        function animatedBox() {
+          const em = document.getElementById('box');
+          let tick = 1;
+          const timer = setInterval(function () {
+            if (tick < 500){
+              tick ++;
+              em.style.marginLeft = em.style.marginTop = tick + 'px';
+            } else {
+              clearInterval(timer)
+            }
+          },100);
+        }
+
+        animatedBox();
+    </script>
+</body>
+</html>
