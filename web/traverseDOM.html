@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="subTree">
+    <form>
+        <input type="text1"/>
+        <input type="text2"/>
+    </form>
+    <p>Paragraph</p>
+    <span>Span</span>
+</div>
+<script>
+  function traverseDOM(element, callback) {
+    callback(element);
+    element = element.firstElementChild;
+    while (element) {
+      traverseDOM(element, callback);
+      element = element.nextElementSibling;
+    } }
+  const subTree = document.getElementById("subTree");
+  traverseDOM(subTree, function(element) {
+    console.log(element.nodeName);
+  });
+</script>
+
+<script>
+  (function (){function* DomTraversal(element){
+    yield element;
+    element = element.firstElementChild;
+    while (element) {
+      yield* DomTraversal(element);
+      element = element.nextElementSibling;
+    } }
+  const subTree = document.getElementById("subTree");
+  for(let element of DomTraversal(subTree)) {
+    console.error(element.nodeName);
+  }}());
+</script>
+
+</body>
+</html>
