@@ -12,9 +12,22 @@ function directCallFunc(){
 
 directCallFunc();
 
+function Animal() {
+  this.name = "Animal";
+  this.showName = function() {
+    console.log(this.name);
+  }
+}
+
+const a = new Animal();
+a.showName();
+const func1 = a.showName;
+func1(); //undefined cause func1 is direct call within window/global env
+
 /*
   2 called with new keyword
  */
+console.log('called with new keyword function-------');
 
 function Obj() {
   this.test = 'test';
