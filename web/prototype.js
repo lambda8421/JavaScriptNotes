@@ -33,3 +33,28 @@ function Obj(){
 const o = Obj();
 const obj3 = new Obj();
 obj3.test();
+
+
+
+function Ninja() {
+    this.swung = false;
+    this.swingSword = function () {
+        return !this.swung;
+    };
+}
+Ninja.prototype.swingSword = function () {
+    return this.swung;
+};
+const ninja = new Ninja();
+
+/*
+    ninja = {
+        prototype->Ninja prototype={
+                                contructor->function Ninja={
+                                            prototype->Ninja prototype
+                                        }
+                                    swingSword->function(){}
+                                }
+        swingSword->function(){}
+    }
+*/
