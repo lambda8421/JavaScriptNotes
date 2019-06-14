@@ -48,6 +48,7 @@ Ninja.prototype.swingSword = function () {
 const ninja = new Ninja();
 
 /*
+page 202
     ninja = {
         prototype->Ninja prototype={
                                 contructor->function Ninja={
