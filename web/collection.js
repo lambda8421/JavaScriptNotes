@@ -13,7 +13,6 @@ console.log(arr2[4]); //undefined
 ■ unshift adds an item to the beginning of the array.
 ■ pop removes an item from the end of the array.
 ■ shift removes an item from the beginning of the array.
-
  */
 
 const ninjas = ["Yagyu", "Kuma", "Hattori", "Fuma"];
@@ -44,38 +43,52 @@ for(let value of directory.values()){
 
 //set
 
-function Set(){
+function OurSet(){
   this.data = {};
   this.length = 0;
 }
-Set.prototype.has = function(item){
+OurSet.prototype.has = function(item){
     return typeof this.data[item] !== "undefined";
 };
-Set.prototype.add = function(item){
+OurSet.prototype.add = function(item){
   if(!this.has(item)){
     this.data[item] = true;
     this.length++;
   }
 };
 
-  Set.prototype.remove = function(item){
+OurSet.prototype.remove = function(item){
     if(this.has(item)){
       delete this.data[item];
       this.length--;
     }
   };
-const ninjasSet = new Set();
+const ninjasSet = new OurSet();
 ninjasSet.add("Hattori");
 ninjasSet.add("Hattori");
 
 
 //initialization
-const ninjas = new Set(["Kuma", "Hattori", "Yagyu", "Hattori"]);
+const ninjasSet1 = new Set(["Kuma", "Hattori", "Yagyu", "Hattori"]);
 
 //intersection
 
-const ninjas = new Set(["Kuma", "Hattori", "Yagyu"]);
+const ninjasSet2 = new Set(["Kuma", "Hattori", "Yagyu"]);
 const samurai = new Set(["Hattori", "Oda", "Tomoe"]);
 const ninjaSamurais = new Set(
-  [...ninjas].filter(ninja => samurai.has(ninja))
+  [...ninjasSet2].filter(ninja => samurai.has(ninja))
 );
+console.log(ninjaSamurais);
+
+
+const set1 = new Set();
+
+set1.add(42);
+set1.add('forty two');
+
+const iterator1 = set1[Symbol.iterator]();
+
+console.log(iterator1.next().value);
+// expected output: 42
+
+console.log(iterator1.next().value);
