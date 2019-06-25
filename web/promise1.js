@@ -6,7 +6,8 @@ const promiseE1 = new Promise((res,rej)=>{
 promiseE1.then((x)=>console.log(x),
     e=>console.log(e));
 
-promiseE1.then((x)=>console.log(x)).catch(e=>console.log(e));
+promiseE1.then((x)=>console.log(x))
+  .catch(e=>console.log(e));
 
 const throwErrorPromise = new Promise((res,rej)=>{
   x++;

@@ -1,3 +1,4 @@
+//PubSub pattern
 function Emitter() {
   const map = new Map();
   this.on = function (type,fun) {
