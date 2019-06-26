@@ -1,9 +1,18 @@
 
-//copy arr 
+//copy arr  shallow copy
 let arr = [1, 2, 3];
 let arr1 = arr.slice();
 arr.push(1, 2, 3)
 console.log(arr, arr1)
+
+let arr11 = [{ a: 'a' }];
+let arr12 = arr.slice();
+
+console.log(arr11, arr12);
+
+arr11[0].a = 'b';
+
+console.log(arr11, arr12);
 
 //copy obj
 const target = { a: 1, b: 2 };
@@ -18,4 +27,3 @@ console.log(source);
 
 console.log(returnedTarget);
 // expected output: Object { a: 1, b: 4, c: 5 }
-
