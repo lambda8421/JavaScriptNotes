@@ -42,3 +42,11 @@ let obj1 = JSON.parse(JSON.stringify(obj));
 obj.o.x = 'u';
 
 console.log(obj,obj1);
+
+let nObj = new Object();
+nObj.x = new Object();
+
+let nObj1 = JSON.parse(JSON.stringify(nObj));
+nObj.x.y = 'x'
+
+console.log(nObj,nObj1)
