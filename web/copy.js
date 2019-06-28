@@ -2,30 +2,31 @@
 //copy arr  shallow copy
 let arr = [1, 2, 3];
 let arr1 = arr.slice();
-arr.push(1, 2, 3)
-console.log(arr, arr1)
+console.log(arr, arr1);
 
 let arr11 = [{ a: 'a' }];
-let arr12 = arr.slice();
-
-console.log(arr11, arr12);
+let arr12 = arr11.slice();
 
 arr11[0].a = 'b';
 
 console.log(arr11, arr12);
 
-//copy obj
-const target = { a: 1, b: 2 };
-const source = { b: { x: 'x' }, c: [1, 2, 3], f: function () { return 1 } };
-const returnedTarget = Object.assign(target, source);
-source.b = { x: 'y' };
-source.c.push('dd')
-source.f = function () { return 2 }
-console.log(source);
-// expected output: Object { a: 1, b: 4, c: 5 }
-
-
+//copy obj  shallow copy
+const source = {
+  b: { x: 'x' },
+  c: [1, 2],
+  f: function () { return 1 } };
+const returnedTarget = Object.assign({}, source);
 console.log(returnedTarget);
+
+
+source.b.x = 'y';
+source.c.push('dd');
+source.f = function () { return 2 };  //refer to another
+console.log(source);
+console.log(returnedTarget);
+console.log(source.f(),returnedTarget.f());
+
 // expected output: Object { a: 1, b: 4, c: 5 }
 
 
@@ -50,3 +51,4 @@ let nObj1 = JSON.parse(JSON.stringify(nObj));
 nObj.x.y = 'x'
 
 console.log(nObj,nObj1)
+
