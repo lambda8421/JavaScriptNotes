@@ -25,8 +25,6 @@ source.c.push('dd');
 source.f = function () { return 2 };  //refer to another
 console.log(source);
 console.log(returnedTarget);
-console.log(source.f(),returnedTarget.f());
-
 // expected output: Object { a: 1, b: 4, c: 5 }
 
 
@@ -43,28 +41,3 @@ let obj1 = JSON.parse(JSON.stringify(obj));
 obj.o.x = 'u';
 
 console.log(obj,obj1);
-
-let nObj = new Object();
-nObj.x = new Object();
-
-let nObj1 = JSON.parse(JSON.stringify(nObj));
-nObj.x.y = 'x'
-
-console.log(nObj,nObj1)
-
-
-//deep copy method
-function copy(aObject) {
-  if (!aObject) {
-    return aObject;
-  }
-
-  let v;
-  let bObject = Array.isArray(aObject) ? [] : {};
-  for (const k in aObject) {
-    v = aObject[k];
-    bObject[k] = (typeof v === "object") ? copy(v) : v;
-  }
-
-  return bObject;
-}
