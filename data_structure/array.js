@@ -75,3 +75,20 @@ const some = x=>x>1;
 arr.forEach(forEach);
 console.log(arr.every(every));
 console.log(arr.some(some));
+
+//reduce
+
+const reducer = (pre,cur) => pre + cur;
+console.log(arr.reduce(reducer));
+console.log(arr.reduce(reducer,1));
+
+//return new arr function
+// map, filter
+const mapArr = arr.map(x=>x*2);
+console.log(mapArr);
+const filterMap = arr.filter(x=>x>3);
+console.log(filterMap);
+
+let a = 1;
+let b = a++;
+console.log(a,b);
