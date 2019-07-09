@@ -10,7 +10,11 @@ function Sub() {
 
 }
 
-Sub.prototype = new Super();
+Sub.prototype = Super;
 
 const sub = new Sub();
 sub.super();
+
+function A(){}
+A.constructor = Super;
+let a = new A();
