@@ -26,8 +26,16 @@ Given target = 20, return false.
  * @param {number} target
  * @return {boolean}
  */
+function dfs(m,t,row,col){
+    if(row < 0 || col < 0 || row > m.length-1 || col > m[0].length-1) return false;
+    else if(m[row][col] === t) return true;
+    else if(m[row][col] < t) return dfs(m,t,row+1,col)
+    else  return dfs(m,t,row,col-1);
+}
+
 var searchMatrix = function(matrix, target) {
-    
+    if(matrix.length === 0) return false;
+    return dfs(matrix,target,0,matrix[0].length-1);
 };
 
 var matrix = [
@@ -40,3 +48,5 @@ var matrix = [
 
 console.log(searchMatrix(matrix,5))
 console.log(searchMatrix(matrix,20))
+console.log(searchMatrix(matrix,19))
+console.log(searchMatrix(matrix,16))
