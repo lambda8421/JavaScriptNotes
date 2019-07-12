@@ -32,19 +32,27 @@ Note:
  * @return {number}
  */
 var findTargetSumWays = function (nums, S) {
-
+    let sum = nums.reduce((p,c)=>p+c);
+    return sum >= S && (S+sum)%2 === 0 && findSubSet(nums,(S + sum)/2)
 };
 
 var findSubSet = function (nums,target){
     const matrix = new Array(target + 1).fill(0).map(() => new Array(nums.length).fill(false));
     matrix[0] = new Array(nums.length).fill(true);
-    for(let i = 1;i < target; i++){
-        for(let j = 0; i < nums.length; j++){
-            matrix[i][j] =  
+    for(let i = 1;i <= target; i++){
+        for(let j = 0; j < nums.length; j++){
+            if(nums[j] > target){
+                matrix[i][j] =  matrix[i][j-1]
+            }else{
+                matrix[i][j] = matrix[i-1][j] || matrix[i - nums[j-1]][j-1];
+            }
         }
     }
+    return matrix[target][nums.length-1];
 
 }
 console.log(findTargetSumWays([1, 1, 1, 1, 1],3))
+console.log(findTargetSumWays([1],2))
+console.log(findTargetSumWays([1, 2, 7, 9, 981],1000000000))
 const x = new Array(2).fill(0).map(() => new Array(3 + 1).fill(0));
 console.log(x)
