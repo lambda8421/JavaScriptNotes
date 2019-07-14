@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+    div{
+        width: 40px;
+        height: 40px;
+    }
+</style>
+<body>
+
+<div class="test1 test3 test2"></div>
+<br>
+<div class="test1 test2"></div>
+<br>
+<div class="test2 test3"></div>
+<br>
+<div class="test1 test3"></div>
+
+</body>
+<script>
+    const node = getByClassName(document,'div','test1  test2');
+
+    for (let i = 0; i < node.length; i++) {
+      console.log(node[i])
+    }
+
+    function getByClassName(node,tag,className) {
+      node = node || document;
+      const tagNodes = node.getElementsByTagName(tag);
+      let result = [];
+      let str = className.split(' ').sort().join('');
+      Array.prototype.forEach.call(tagNodes,n=>{
+        n.className.split(' ').sort().join('').includes(str) ?
+          result.push(n) : null;
+      });
+      return result;
+    }
+</script>
+</html>

@@ -36,22 +36,36 @@ var splitArray = function(nums, m) {
     nums.forEach(x=>{
         max = max > x ? max : x;
         sum += x;
-    })
-
+    });
     return binarySearch(max,sum,nums,m)
 };
 
 function binarySearch(low,high,nums,m){
-    while(low < hight){
-        let mid = Math.floor((low + high)/2);
+    let mid = 0;
+    while(low < high){
+        mid = Math.floor((low + high)/2);
         if(valid(nums,m,mid)){
             high = mid;
         }else{
             low = mid+1;
         }
     }
+    return high;
 }
 
 function valid(nums, m,target){
-    
+    let count = 1;
+    let cur = 0;
+    for (let n of nums){
+        if ((n + cur) > target){
+            cur = n;
+            count ++;
+            if (count > m) return false;
+        }  else {
+            cur += n;
+        }
+    }
+    return  true;
 }
+
+console.log(splitArray([7,2,5,10,8],2));
