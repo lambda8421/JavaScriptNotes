@@ -19,5 +19,15 @@ Output: 4
  * @return {number}
  */
 var maximalSquare = function(matrix) {
-
+    let max = 0;
+    for(int i=0;i < matrix.length; i ++){
+        for(let j=0;j < matrix[0].length;j++){
+            max = Math.max(square(matrix,i,j),max);
+        }
+    }
+    return max;
 };
+
+var square(matrix,row,col){
+
+}
