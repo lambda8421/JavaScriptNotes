@@ -8,10 +8,10 @@
 
     <table>
         <tr>
-            <td>X</td>
+            <td><input id="input1" type="text"></td>
         </tr>
         <tr>
-            <td>Y</td>
+            <td><input id="input2" type="text"></td>
         </tr>
         <tr>
             <td>Z</td>
@@ -19,4 +19,17 @@
     </table>
 
 </body>
+<script>
+    let input1 = document.getElementById('input1');
+    let input2 = document.getElementById('input2');
+
+    let value = '';
+
+    input1.oninput = handleChange;
+
+    function handleChange(e) {
+        console.log(e)
+        input2.value = `The field's value is ${e.target.value.length} character(s) long.`;
+    }
+</script>
 </html>
