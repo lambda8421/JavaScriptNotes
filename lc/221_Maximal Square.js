@@ -20,14 +20,24 @@ Output: 4
  */
 var maximalSquare = function(matrix) {
     let max = 0;
-    for(int i=0;i < matrix.length; i ++){
-        for(let j=0;j < matrix[0].length;j++){
-            max = Math.max(square(matrix,i,j),max);
+    let dp = new Array(matrix.length + 1).fill(0).map(()=>new Array(matrix[0].length+1).fill(0));
+    for(let i=1;i <= matrix.length; i ++){
+        for(let j=1;j <= matrix[0].length;j++){
+            if (matrix[i-1][j-1] == '1'){
+                dp[i][j] = Math.min(Math.min(dp[i-1][j],dp[i][j-1]),dp[i-1][j-1])+1;
+                max = Math.max(max, dp[i][j]);
+            }
         }
     }
-    return max;
+    return max*max;
 };
 
-var square(matrix,row,col){
 
-}
+
+const arr = [
+    [1, 0, 1, 0, 0],
+    [1, 0,1, 1, 1],
+    [1, 1, 1, 1, 1],
+    [1, 0, 0, 1, 0]
+];
+console.log(maximalSquare(arr));
