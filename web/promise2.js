@@ -24,4 +24,6 @@ let p2 = new Promise(r=>setTimeout(
   ()=>r('p2'),1));
 
 Promise.all([p1,p2]).then(results=>console.log(results));
-Promise.race([p1,p2]).then(result=>console.log(result))
+Promise.race([p1,p2]).then(result=>console.log(result));
+
+
