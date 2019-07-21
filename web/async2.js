@@ -1,6 +1,7 @@
 let hello = async () => { return "Hello" };
 hello().then(x=>console.log(x));
 
+
 let hello1 = async () => { return Promise.resolve('Hello1')};
 
 
@@ -11,3 +12,5 @@ async function f() {
 }
 
 f().then(x=>console.log(x));
+
+
