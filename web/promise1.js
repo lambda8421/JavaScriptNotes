@@ -1,3 +1,5 @@
+
+
 const promiseE1 = new Promise((res,rej)=>{
   // res('test');
   rej('rej')

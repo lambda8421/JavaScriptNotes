@@ -3,7 +3,7 @@ let p2 = new Promise(r=>r('P2'));
 
 combine(function* () {
   try {
-     yield p1;
+    yield p1;
     yield p2;
   }catch (e) {
     //something wrong
