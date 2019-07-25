@@ -85,6 +85,27 @@ var kthSmallest = function(root, k) {
 
 };
 
+ var kthSamllest1 = function(root, k){
+    let arr = [];
+    let cur = root;
+     while (cur){
+         arr.push(cur);
+         cur = cur.left;
+     }
+    while (k > 0){
+        k--;
+        cur = arr.pop();
+        if (k === 0)  return cur.val;
+
+        let right = cur.right;
+        while (right != null) {
+            arr.push(right);
+            right = right.left;
+        }
+    }
+ };
+
+
 let root = new TreeNode(5);
 root.left = new TreeNode(3);
 root.right = new TreeNode(6);
@@ -92,4 +113,4 @@ root.left.left = new TreeNode(2);
 root.left.right = new TreeNode(4);
 root.left.left.left = new TreeNode(1);
 
-console.log(kthSmallest(root,4));
+console.log(kthSamllest1(root,4));
