@@ -47,7 +47,8 @@
 //   });
 // p5.then(res=>console.log(res));
 
-let p6 = new Promise(resolve => resolve('p6'));
+let p6 = new Promise(resolve => resolve('resolve'));
+
 
 p6.then(x=>console.log(x));
 
