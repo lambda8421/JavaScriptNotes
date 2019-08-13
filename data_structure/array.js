@@ -42,17 +42,17 @@ console.log(newArr);
 // shift splice pop (remove action)
 
 arr = ['x','y'];
-arr.push('z'); 
+arr.push('z');
 console.log(arr) //x,y,z
-arr.unshift('mmm'); 
+arr.unshift('mmm');
 console.log(arr) //mmm,x,y,z
-arr.splice(1,0,'xxx') 
+arr.splice(1,0,'xxx')
 console.log(arr) //mmm,xxx,x,y,z
-arr.splice(1,1) 
+arr.splice(1,1)
 console.log(arr) //mmm,x,y,z
-arr.pop(); 
+arr.pop();
 console.log(arr) //mmm,x,y
-arr.shift(); 
+arr.shift();
 console.log(arr) //x,y
 
 arr = [4,1,5,6];
@@ -95,7 +95,7 @@ console.log(a,b);
 
 
 /*
-The Array.from() method creates a new, 
+The Array.from() method creates a new,
 shallow-copied Array instance from an array-like or iterable object.
 */
 console.log(Array.from('foo'));
@@ -103,3 +103,10 @@ console.log(Array.from('foo'));
 
 console.log(Array.from([1, 2, 3], x => x + x));
 // expected output: Array [2, 4, 6]
+
+
+const ar1r = [[1,2],[3,4]];
+console.log(ar1r);
+
+const x = ar1r[0].splice(0,1);
+console.log(ar1r);
