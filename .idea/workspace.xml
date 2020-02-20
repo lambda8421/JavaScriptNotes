@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6954c58-2db3-4322-8586-50adce6a1173" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/addFunOnlyOnce.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/addFunOnlyOnce.js" afterDir="false" />
-    </list>
+    <list default="true" id="b6954c58-2db3-4322-8586-50adce6a1173" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +65,7 @@
       <workItem from="1565727463471" duration="2438000" />
       <workItem from="1565962786044" duration="278000" />
       <workItem from="1566505280991" duration="537000" />
-      <workItem from="1582229818731" duration="350000" />
+      <workItem from="1582229818731" duration="615000" />
     </task>
     <servers />
   </component>
@@ -76,22 +73,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1582230315983">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1582230576178">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582230315983" />
-    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1582230315982">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582230576178" />
+    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1582230576176">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582230315982" />
-    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1582230315982">
+    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582230576176" />
+    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1582230576176">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582230315982" />
-    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1582230315983">
+    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582230576176" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1582230576177">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582230315983" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582230576177" />
     <state width="1358" height="285" key="GridCell.Tab.1.bottom" timestamp="1582229942334">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
@@ -140,17 +137,5 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state width="1358" height="285" key="GridCell.Tab.3.right/40.23.1400.877@40.23.1400.877" timestamp="1582229942352" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/web/addFunOnlyOnce.js</url>
-          <line>5</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
