@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6954c58-2db3-4322-8586-50adce6a1173" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data_structure/array/reduce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/trueOrFalse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structure/map/map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/asyncJavascript/chapter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/basic/asyncJavascript/chapter2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/asyncJavascript/chapter3.js" beforeDir="false" afterPath="$PROJECT_DIR$/basic/asyncJavascript/chapter3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/interview/removeDuplicateCharactersFromString.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/string.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/string.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,27 +38,29 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.reduce.js">
-    <configuration name="216. Combination Sum III.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lc/216. Combination Sum III.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.trueOrFalse.js">
+    <configuration name="onChange.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/interview/onChange.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="227. Basic Calculator II.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lc/227. Basic Calculator II.js" working-dir="$PROJECT_DIR$">
+    <configuration name="chapter2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/basic/asyncJavascript/chapter2.js" working-dir="$PROJECT_DIR$/basic/asyncJavascript">
       <method v="2" />
     </configuration>
-    <configuration name="addFunOnlyOnce.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web/addFunOnlyOnce.js" working-dir="$PROJECT_DIR$/web">
+    <configuration name="map.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/data_structure/map/map.js" working-dir="$PROJECT_DIR$/data_structure/map">
       <method v="2" />
     </configuration>
-    <configuration name="eventLoop.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web/eventLoop.js" working-dir="$PROJECT_DIR$/web">
+    <configuration name="string.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web/string.js" working-dir="$PROJECT_DIR$/web">
       <method v="2" />
     </configuration>
-    <configuration name="reduce.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/data_structure/array/reduce.js" working-dir="$PROJECT_DIR$/data_structure/array">
+    <configuration name="trueOrFalse.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/basic/trueOrFalse.js" working-dir="$PROJECT_DIR$/basic">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.reduce.js" />
-        <item itemvalue="Node.js.eventLoop.js" />
-        <item itemvalue="Node.js.addFunOnlyOnce.js" />
+        <item itemvalue="Node.js.trueOrFalse.js" />
+        <item itemvalue="Node.js.string.js" />
+        <item itemvalue="JavaScript Debug.onChange.html" />
+        <item itemvalue="Node.js.chapter2.js" />
+        <item itemvalue="Node.js.map.js" />
       </list>
     </recent_temporary>
   </component>
@@ -70,7 +77,7 @@
       <workItem from="1565727463471" duration="2438000" />
       <workItem from="1565962786044" duration="278000" />
       <workItem from="1566505280991" duration="537000" />
-      <workItem from="1582229818731" duration="2917000" />
+      <workItem from="1582229818731" duration="5861000" />
     </task>
     <servers />
   </component>
@@ -82,22 +89,22 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="602" y="271" key="#com.intellij.fileTypes.FileTypeChooser/40.23.1400.877@40.23.1400.877" timestamp="1582231831958" />
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1582295891791">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1582318814932">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582295891791" />
-    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1582295891790">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582318814932" />
+    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1582318814931">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582295891790" />
-    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1582295891790">
+    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582318814931" />
+    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1582318814931">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582295891790" />
-    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1582295891790">
+    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582318814931" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1582318814932">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582295891790" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582318814932" />
     <state width="1358" height="285" key="GridCell.Tab.1.bottom" timestamp="1582229942334">
       <screen x="40" y="23" width="1400" height="877" />
     </state>

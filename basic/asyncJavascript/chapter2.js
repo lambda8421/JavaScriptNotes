@@ -14,13 +14,13 @@ function Emitter() {
   this.emit = function (type) {
     if (map.has(type)){
       map.get(type).forEach(f=>f());
-      const arr = map.get(type);
-      for(let key in arr){
-        arr[key]();
-      }
-      for(let value of arr){
-        value();
-      }
+      // const arr = map.get(type);
+      // for(let key in arr){
+      //   arr[key]();
+      // }
+      // for(let value of arr){
+      //   value();
+      // }
     } else {
       throw Error('no event to emit');
     }
