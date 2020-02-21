@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6954c58-2db3-4322-8586-50adce6a1173" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data_structure/array/aIndex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/array/filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/array.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +26,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
-  <component name="RunManager" selected="Node.js.eventLoop.js">
+  <component name="RunManager">
     <configuration name="216. Combination Sum III.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lc/216. Combination Sum III.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -47,12 +47,18 @@
     <configuration name="eventLoop.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web/eventLoop.js" working-dir="$PROJECT_DIR$/web">
       <method v="2" />
     </configuration>
-    <recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <item itemvalue="Node.js.eventLoop.js" />
-        <item itemvalue="Node.js.addFunOnlyOnce.js" />
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
-    </recent_temporary>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -75,6 +81,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="409" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582286379863">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="409" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1582286379863" />
     <state x="602" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582231831958">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
@@ -143,5 +153,13 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state width="1358" height="285" key="GridCell.Tab.3.right/40.23.1400.877@40.23.1400.877" timestamp="1582229942352" />
+    <state x="339" y="63" key="SettingsEditor" timestamp="1582259824367">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="339" y="63" key="SettingsEditor/0.0.1920.1046@0.0.1920.1046" timestamp="1582259824367" />
+    <state x="574" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1582286340666">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="574" y="307" key="com.intellij.ide.util.TipDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1582286340666" />
   </component>
 </project>

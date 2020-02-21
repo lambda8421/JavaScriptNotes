@@ -2,6 +2,7 @@ let arr = new Array(1,2,3,4,5);
 console.log(arr);
 
 
+
 arr = new Array(1);
 console.log(arr);
 
@@ -13,6 +14,7 @@ for(let i in arr){
 }
 
 console.log(arr);
+arr.log
 
 let str = 'hello world';
 let strArr = str.split('');
