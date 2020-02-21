@@ -1,286 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ad93dba-5444-4046-9641-b7981a0534f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data_structure/priorityQueue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc/84_Largest Rectangle in Histogram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc/85_Maximal Rectangle.js" afterDir="false" />
+    <list default="true" id="b6954c58-2db3-4322-8586-50adce6a1173" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data_structure/array/aIndex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structure/array/filter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc/221_Maximal Square.js" beforeDir="false" afterPath="$PROJECT_DIR$/lc/221_Maximal Square.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/120_Triangle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/151_Reverse Words in a String.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/151_Reverse Words in a String.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/195_Tenth Line.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/195_Tenth Line.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/199_Binary Tree Right Side View.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/199_Binary Tree Right Side View.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/221_Maximal Square.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/221_Maximal Square.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/222_Count Complete Tree Nodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/222_Count Complete Tree Nodes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/228_Summary Ranges.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/228_Summary Ranges.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/240_Search a 2D Matrix II.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/240_Search a 2D Matrix II.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/274_H-Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/274_H-Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/279_Perfect Squares.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/279_Perfect Squares.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/300_Longest Increasing Subsequence.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/300_Longest Increasing Subsequence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/410_Split Array Largest Sum.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/410_Split Array Largest Sum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/482_License Key Formatting.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/482_License Key Formatting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/494_Target Sum.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/494_Target Sum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/500_Keyboard Row.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/500_Keyboard Row.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/LC162.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/LC162.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/LC_001.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/LC_001.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/LC/Node.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lc/279_Perfect Squares.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="34" column="15" selection-start-line="22" selection-start-column="2" selection-end-line="34" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lc/274_H-Index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lc/221_Maximal Square.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="31" selection-end-column="19" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lc/85_Maximal Rectangle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lc/84_Largest Rectangle in Histogram.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interview/subtab1tab2Update.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/priorityQueue.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/199_Binary Tree Right Side View.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="28" selection-start-line="28" selection-end-line="41" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LC/221_Maximal Square.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/120_Triangle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lc/151_Reverse Words in a String.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lc/195_Tenth Line.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lc/199_Binary Tree Right Side View.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/leetcode/228_Summary Ranges.js" />
-        <option value="$PROJECT_DIR$/leetcode/300_Longest Increasing Subsequence.js" />
-        <option value="$PROJECT_DIR$/leetcode/410_Split Array Largest Sum.js" />
-        <option value="$PROJECT_DIR$/web/testGetClass.html" />
-        <option value="$PROJECT_DIR$/interview/requestStartAndEnd.js" />
-        <option value="$PROJECT_DIR$/leetcode/222_Count Complete Tree Nodes.js" />
-        <option value="$PROJECT_DIR$/leetcode/Node.js" />
-        <option value="$PROJECT_DIR$/leetcode/199_Binary Tree Right Side View.js" />
-        <option value="$PROJECT_DIR$/leetcode/120_Triangle.js" />
-        <option value="$PROJECT_DIR$/leetcode/279_Perfect Squares.js" />
-        <option value="$PROJECT_DIR$/leetcode/274_H-Index.js" />
-        <option value="$PROJECT_DIR$/leetcode/221_Maximal Square.js" />
-        <option value="$PROJECT_DIR$/LC/221_Maximal Square.js" />
-        <option value="$PROJECT_DIR$/lc/221_Maximal Square.js" />
-        <option value="$PROJECT_DIR$/lc/85_Maximal Rectangle.js" />
-        <option value="$PROJECT_DIR$/data_structure/priorityQueue.js" />
-        <option value="$PROJECT_DIR$/lc/84_Largest Rectangle in Histogram.js" />
-        <option value="$PROJECT_DIR$/interview/subtab1tab2Update.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="23" />
-    <option name="width" value="1393" />
-    <option name="height" value="877" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaScriptNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScriptNotes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaScriptNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScriptNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaScriptNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScriptNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaScriptNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScriptNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="lc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaScriptNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScriptNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectId" id="1Y5Q8apPcIpgdVFAedXYXuvmpom" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Node.js.priorityQueue.js">
-    <configuration name="221_Maximal Square.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lc/221_Maximal Square.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.eventLoop.js">
+    <configuration name="216. Combination Sum III.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lc/216. Combination Sum III.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="279_Perfect Squares.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="279_Perfect Squares.js" working-dir="$PROJECT_DIR$/leetcode">
+    <configuration name="227. Basic Calculator II.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lc/227. Basic Calculator II.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="300_Longest Increasing Subsequence.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="300_Longest Increasing Subsequence.js" working-dir="$PROJECT_DIR$/leetcode">
+    <configuration name="addFunOnlyOnce.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web/addFunOnlyOnce.js" working-dir="$PROJECT_DIR$/web">
       <method v="2" />
     </configuration>
-    <configuration name="410_Split Array Largest Sum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="410_Split Array Largest Sum.js" working-dir="$PROJECT_DIR$/leetcode">
-      <method v="2" />
-    </configuration>
-    <configuration name="priorityQueue.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/data_structure/priorityQueue.js" working-dir="$PROJECT_DIR$">
+    <configuration name="eventLoop.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web/eventLoop.js" working-dir="$PROJECT_DIR$/web">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.priorityQueue.js" />
-        <item itemvalue="Node.js.221_Maximal Square.js" />
+        <item itemvalue="Node.js.eventLoop.js" />
+        <item itemvalue="Node.js.addFunOnlyOnce.js" />
       </list>
     </recent_temporary>
   </component>
@@ -289,232 +59,89 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ad93dba-5444-4046-9641-b7981a0534f8" name="Default Changelist" comment="" />
-      <created>1562961723187</created>
+      <changelist id="b6954c58-2db3-4322-8586-50adce6a1173" name="Default Changelist" comment="" />
+      <created>1565727460495</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562961723187</updated>
-      <workItem from="1562961724795" duration="466000" />
-      <workItem from="1562962668523" duration="1653000" />
-      <workItem from="1563214761669" duration="1076000" />
-      <workItem from="1563218572330" duration="3281000" />
-      <workItem from="1563304918012" duration="3748000" />
-      <workItem from="1563386172214" duration="4190000" />
+      <updated>1565727460495</updated>
+      <workItem from="1565727463471" duration="2438000" />
+      <workItem from="1565962786044" duration="278000" />
+      <workItem from="1566505280991" duration="537000" />
+      <workItem from="1582229818731" duration="1514000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14039000" />
-    <option name="totallyTimeSpent" value="10846000" />
-    <option name="totallyTimeSpent" value="9849000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="47" y="23" width="1393" height="877" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2186589" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14494321" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21909696" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32982087" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39936775" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987261" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="RNConsole" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2433121" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24446785" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24447334" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Json Parser" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lc/221_Maximal Square.js</url>
-          <line>24</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lc/500_Keyboard Row.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/410_Split Array Largest Sum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/testGetClass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/requestStartAndEnd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/228_Summary Ranges.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/494_Target Sum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/482_License Key Formatting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/300_Longest Increasing Subsequence.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/279_Perfect Squares.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="15" selection-start-line="22" selection-start-column="2" selection-end-line="34" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/274_H-Index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/151_Reverse Words in a String.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/195_Tenth Line.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/199_Binary Tree Right Side View.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/221_Maximal Square.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="1255" column="53" lean-forward="true" selection-start-line="1255" selection-start-column="53" selection-end-line="1255" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/priorityQueue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/85_Maximal Rectangle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lc/84_Largest Rectangle in Histogram.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/subtab1tab2Update.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        <state relative-caret-position="130">
-          <caret line="28" selection-start-line="28" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/120_Triangle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        <state relative-caret-position="159">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="602" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582231831958">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state x="602" y="271" key="#com.intellij.fileTypes.FileTypeChooser/40.23.1400.877@40.23.1400.877" timestamp="1582231831958" />
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1582231017503">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582231017503" />
+    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1582231017502">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582231017502" />
+    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1582231017502">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582231017502" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1582231017503">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582231017503" />
+    <state width="1358" height="285" key="GridCell.Tab.1.bottom" timestamp="1582229942334">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="285" key="GridCell.Tab.1.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582229942334" />
+    <state width="1358" height="285" key="GridCell.Tab.1.center" timestamp="1582229942333">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="285" key="GridCell.Tab.1.center/40.23.1400.877@40.23.1400.877" timestamp="1582229942333" />
+    <state width="1358" height="285" key="GridCell.Tab.1.left" timestamp="1582229942333">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="285" key="GridCell.Tab.1.left/40.23.1400.877@40.23.1400.877" timestamp="1582229942333" />
+    <state width="1358" height="285" key="GridCell.Tab.1.right" timestamp="1582229942334">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="285" key="GridCell.Tab.1.right/40.23.1400.877@40.23.1400.877" timestamp="1582229942334" />
+    <state width="1358" height="285" key="GridCell.Tab.2.bottom" timestamp="1582229942346">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="285" key="GridCell.Tab.2.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582229942346" />
+    <state width="1358" height="285" key="GridCell.Tab.2.center" timestamp="1582229942335">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="285" key="GridCell.Tab.2.center/40.23.1400.877@40.23.1400.877" timestamp="1582229942335" />
+    <state width="1358" height="285" key="GridCell.Tab.2.left" timestamp="1582229942335">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="285" key="GridCell.Tab.2.left/40.23.1400.877@40.23.1400.877" timestamp="1582229942335" />
+    <state width="1358" height="285" key="GridCell.Tab.2.right" timestamp="1582229942337">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="285" key="GridCell.Tab.2.right/40.23.1400.877@40.23.1400.877" timestamp="1582229942337" />
+    <state width="1358" height="285" key="GridCell.Tab.3.bottom" timestamp="1582229942353">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="285" key="GridCell.Tab.3.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582229942353" />
+    <state width="1358" height="285" key="GridCell.Tab.3.center" timestamp="1582229942352">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="285" key="GridCell.Tab.3.center/40.23.1400.877@40.23.1400.877" timestamp="1582229942352" />
+    <state width="1358" height="285" key="GridCell.Tab.3.left" timestamp="1582229942352">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="285" key="GridCell.Tab.3.left/40.23.1400.877@40.23.1400.877" timestamp="1582229942352" />
+    <state width="1358" height="285" key="GridCell.Tab.3.right" timestamp="1582229942352">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1358" height="285" key="GridCell.Tab.3.right/40.23.1400.877@40.23.1400.877" timestamp="1582229942352" />
   </component>
 </project>
