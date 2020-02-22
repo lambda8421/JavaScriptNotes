@@ -84,7 +84,7 @@ const reducer = (pre,cur) => pre + cur;
 console.log(arr.reduce(reducer));
 console.log(arr.reduce(reducer,1));
 
-//return new arr function
+//return new arr function which default if []
 // map, filter
 const mapArr = arr.map(x=>x*2);
 console.log(mapArr);

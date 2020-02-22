@@ -10,3 +10,5 @@ console.log(str.split('b'))  //['','']
 
 str = 'abbc';
 console.log(str.split('b'))  //['a','','c']
+
+console.log(str[0])
