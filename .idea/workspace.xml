@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6954c58-2db3-4322-8586-50adce6a1173" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/trueOrFalse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/map/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/asyncJavascript/chapter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/basic/asyncJavascript/chapter2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/asyncJavascript/chapter3.js" beforeDir="false" afterPath="$PROJECT_DIR$/basic/asyncJavascript/chapter3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/interview/removeDuplicateCharactersFromString.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/string.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/string.js" afterDir="false" />
-    </list>
+    <list default="true" id="b6954c58-2db3-4322-8586-50adce6a1173" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +29,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunManager" selected="Node.js.trueOrFalse.js">
     <configuration name="onChange.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/interview/onChange.html" useBuiltInWebServerPort="true">
@@ -89,6 +82,14 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="602" y="271" key="#com.intellij.fileTypes.FileTypeChooser/40.23.1400.877@40.23.1400.877" timestamp="1582231831958" />
+    <state x="654" y="328" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1582342032337">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="654" y="328" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1582342032337" />
+    <state x="685" y="204" key="FileChooserDialogImpl" timestamp="1582342030187">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="685" y="204" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1582342030187" />
     <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1582318814932">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
@@ -153,5 +154,9 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state width="1358" height="285" key="GridCell.Tab.3.right/40.23.1400.877@40.23.1400.877" timestamp="1582229942352" />
+    <state x="339" y="63" key="SettingsEditor" timestamp="1582341972304">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="339" y="63" key="SettingsEditor/0.0.1920.1046@0.0.1920.1046" timestamp="1582341972304" />
   </component>
 </project>
