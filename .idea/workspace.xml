@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6954c58-2db3-4322-8586-50adce6a1173" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data_structure/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.216. Combination Sum III.js">
     <configuration name="216. Combination Sum III.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lc/216. Combination Sum III.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -74,6 +74,7 @@
       <workItem from="1565962786044" duration="278000" />
       <workItem from="1566505280991" duration="537000" />
       <workItem from="1582229818731" duration="1514000" />
+      <workItem from="1582334754645" duration="612000" />
     </task>
     <servers />
   </component>
