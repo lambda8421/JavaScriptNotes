@@ -20,3 +20,6 @@ const ninja2 = new Ninja();
 
 console.log(ninja instanceof Ninja); // false
 console.log(ninja2 instanceof Ninja); //true
+
+
+console.log(Object.prototype.toString({}))
