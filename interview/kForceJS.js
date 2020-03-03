@@ -34,3 +34,14 @@ f1(1)
 const arr = [2,1]
 arr.sort();
 console.log(arr)
+
+
+function f2() {
+  this.count ++;
+  console.log(this.count)
+}
+
+f2.count = 0;
+f2();
+f2();
+console.log(f2.count)
