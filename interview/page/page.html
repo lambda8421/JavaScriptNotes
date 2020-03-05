@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <div id="header">
+            <div>
+                <img src="assets/logo.svg" alt=""/>
+            </div>
+            <div>
+                <h2>Welcome!</h2>
+            </div>
+            <div>
+                <p>We are excited to have you on board!</p>
+                <p>You now have access to your child’s health and education related needs in one app.</p>
+            </div>
+
+        </div>
+        <div class="line"></div>
+        <div id="content">
+            <div class="row">
+                <img src="assets/blackboard.svg"  alt=""/>
+                <div>
+                    <p class="top">Stay informed with School & Classroom News and Updates</p>
+                    <p class="bottom">Stay in the loop with your child’s school  and class feed</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="assets/stethoscope.svg"  alt=""/>
+                <div>
+                    <p class="top">Keep Up to Date with Your Child’s Health and Wellness</p>
+                    <p class="bottom">Book an appointment and view your child’s immunizations in real-time </p>
+                </div>
+            </div>
+            <div class="row">
+                <img class="one-line-title" src="assets/calendar.svg"  alt=""/>
+                <div>
+                    <p class="top">Find School and Class Events</p>
+                    <p class="bottom">Stay informed for upcoming events</p>
+                </div>
+            </div>
+            <div class="row">
+                <img class="one-line-title" src="assets/store.svg"  alt=""/>
+                <div>
+                    <p class="top">Purchase from the Class Store</p>
+                    <p class="bottom">Access school and class items in the classroom shop</p>
+                </div>
+            </div>
+            <div class="row">
+                <img  class="one-line-title" src="assets/mobile-search.svg"  alt=""/>
+                <div>
+                    <p class="top">Facilitate your child’s success</p>
+                    <p class="bottom">Learn from our “Connect” videos and stay informed about your child’s development </p>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div id="footer">
+            <div id="username-password">
+                <div id="username">
+                    <p class="type">Username</p>
+                    <p class="content">Username1</p>
+                </div>
+                <div id="password">
+                    <p class="type">Temporary Password</p>
+                    <p class="content">sfgfgdfgdg</p>
+                </div>
+            </div>
+            <div id="contact">
+                <p id="email">info@geniusplaza.com</p>
+                <p>|</p>
+                <p id="phone">518.280.9550</p>
+                <p>|</p>
+                <p id="unsubscribe">unsubscribe</p>
+            </div>
+            <div id="copyright">
+                <p>Copyright © Genius Plaza, All rights reserved</p>
+            </div>
+            <div id="footer-image">
+                <img src="assets/bottom-footer.svg" alt="">
+            </div>
+
+        </div>
+    </div>
+</body>
+<style>
+    body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #app{
+        width: 620px;
+        height: 1553px;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*align-items: center;*/
+        border: 1px dotted red;
+
+    }
+
+    .line{
+        /* Line 1 */
+        margin-top: 48px;
+        width: 500px;
+        border: 1px dashed  #9C9C9C;
+        margin-left: 60px;
+    }
+    h2{
+        font-family: Arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+        text-transform: capitalize;
+        /* Text/ Dark Title */
+        color: #48575E;
+    }
+    p{
+        width: 492px;
+        font-family: Verdana;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 29px;
+        /* or 161% */
+
+        text-align: center;
+
+        color: #4E4E4E;
+    }
+    #header {display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .top{
+        /* Thanks for joining G */
+        width: 461px;
+        font-family: Verdana;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 29px;
+        text-align: start;
+        /* or 161% */
+        color: #4E4E4E;
+    }
+    .bottom{
+        text-align: start;
+    }
+
+    .row > img{
+        margin-bottom: 72px;
+    }
+
+    .row .one-line-title{
+        margin-bottom: 24px;
+    }
+
+    #username-password{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .type{
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .content{
+        font-weight: bold;
+        font-size: 18px;
+        color: mediumspringgreen;
+    }
+    #contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 40px;
+    }
+
+    #email {
+        color: deepskyblue;
+        font-size: 15px;
+    }
+    #unsubscribe{
+        color: deepskyblue;
+        font-size: 15px;
+    }
+    #copyright{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+</style>
+
+</html>
