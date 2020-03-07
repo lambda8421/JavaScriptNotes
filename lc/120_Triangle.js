@@ -30,3 +30,5 @@ var minimumTotal = function(triangle) {
     }
   }
 };
+
+console.log('ddd')
