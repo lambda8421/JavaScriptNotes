@@ -46,3 +46,7 @@ console.log(mv.next(0));
 let arr = new Array(3);
 arr.push(1);
 console.log(arr.shift())
+
+
+let x = 12;
+console.log(Math.floor(15/10))
