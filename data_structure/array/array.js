@@ -29,3 +29,7 @@ console.log(arr);
 
 arr.splice(1,1,'yyyyy');
 console.log(arr);
+
+/* return iterator here */
+let it = arr.entries();
+console.log(it.next());

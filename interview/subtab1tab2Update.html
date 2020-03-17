@@ -8,7 +8,7 @@
 
     <table>
         <tr>
-            <td><input id="input1" type="text"></td>
+            <td><input id="input1" type="text" oninput="input1ChangeHandler()"></td>
         </tr>
         <tr>
             <td><input id="input2" type="text"></td>
@@ -28,6 +28,10 @@
     function handleChange(e) {
         console.log(e);
         input2.value = `The field's value is ${e.target.value.length} character(s) long.`;
+    }
+    
+    function input1ChangeHandler(e) {
+        console.log(e.target)
     }
 </script>
 </html>
