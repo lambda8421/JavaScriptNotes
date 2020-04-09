@@ -12,3 +12,4 @@ str = 'abbc';
 console.log(str.split('b'))  //['a','','c']
 
 console.log(str[0])
+console.log(str[0].charCodeAt(0));
