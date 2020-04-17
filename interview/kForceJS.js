@@ -6,8 +6,7 @@ function f(x){
 const ar = new Array(1);
 console.log(ar[0])
 ar.length = 2;
-ar[0] = 0;
-ar['0'] = 1;
+ar[0] = 0; //same as ar['0'] = 1;
 ar.push(2);
 ar.push(3)
 ar.push(undefined)
