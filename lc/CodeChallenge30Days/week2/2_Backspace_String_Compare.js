@@ -58,3 +58,7 @@ var backspaceCompare = function(S, T) {
     }
     return s===t;
 };
+
+const arr = [1,2,3];
+arr.splice(1,0,'x');
+console.log(arr)
