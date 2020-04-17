@@ -30,7 +30,7 @@ You need to reduce multiple spaces between two words to a single space in the re
  * @param {string} s
  * @return {string}
  */
-var reverseWords = function(s) {
+let reverseWords = function(s) {
   if(s.length === 0 || s.trim().length === 0) return s.trim();
   let arr = [];
   let subStr = '';

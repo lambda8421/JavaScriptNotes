@@ -3,7 +3,6 @@ function argsFunc(a,b,c){
   console.log(arguments);
 }
 
-
 const arrFunc = (a,b,c)=>console.log(arguments);
 
 argsFunc(1,2,3,4);
