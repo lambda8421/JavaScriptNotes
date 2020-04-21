@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>Some test tables</h3>
+    <div>
+        <p>First table</p>
+        <table>
+            <tr>
+                <td>First</td>
+                <td>row</td>
+            </tr>
+            <tr>
+                <td>and</td>
+                <td>second</td>
+                <td>row</td>
+            </tr>
+            <tr>
+                <td>and</td>
+                <td>the</td>
+                <td>third</td>
+                <td>one</td>
+            </tr>
+        </table>
+    </div>
+    <p>Second table</p>
+    <table>
+        <tr>
+            <td>Not</td>
+            <td>so</td>
+        </tr>
+        <tr>
+            <td>many</td>
+            <td>cells</td>
+        </tr>
+    </table>
+</body>
+<script>
+    function solution() {
+        // write your code in Javascript
+        //
+        // you can access DOM Tree by using DOM Object Model:
+        //    document.getElementsByTagName
+        // or by using jQuery:
+        //    $('some_tag')
+        const tables = document.getElementsByTagName('table');
+        let result = 0;
+        if (tables.length === 0) return result;
+        for (const table of tables){
+            const tds = table.getElementsByTagName("td");
+            result = Math.max(tds.length, result);
+        }
+        return result;
+
+    }
+    solution();
+</script>
+</html>
