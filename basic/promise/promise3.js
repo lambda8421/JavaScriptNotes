@@ -5,6 +5,8 @@ const promise = new Promise((res,rej)=>{
     return 'XX';
 });
 
+promise.then(x=>console.log(x))
+
 
 
 
